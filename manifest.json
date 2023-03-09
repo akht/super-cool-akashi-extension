@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "super-cool-akashi-extension",
+  "version": "1.0",
+  "description": "A neat little tool that makes AKASHI a little more convenient",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://atnd.ak4.jp/attendance"
+      ]
+    }
+  ]
+}
