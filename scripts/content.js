@@ -20,7 +20,7 @@
 
   const hourPerDayElement = document.createElement("p");
   hourPerDayElement.classList.add("p-roster-header__alert");
-  hourPerDayElement.textContent = `(あと１日時間働けばいいの？)`;
+  hourPerDayElement.textContent = `(あと１日何時間働けばいいの？)`;
 
   const span = document.createElement("span");
   span.classList.add("p-roster-header__alert__value");
